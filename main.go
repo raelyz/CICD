@@ -26,6 +26,7 @@ func main() {
 	// go user.MenuOptions()
 	// go user.MenuOptions()
 	// wg.Wait()
+	//
 	if input == 1 {
 		user.MenuOptions()
 	} else if input == 2 {
