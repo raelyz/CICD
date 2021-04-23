@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-16.04
     steps: 
       - name: Checkout my codes
-        uses: actions/checkout@v2
+        uses: action/checkout@v2
