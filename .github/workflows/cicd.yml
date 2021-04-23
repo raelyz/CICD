@@ -3,6 +3,8 @@ name: CICD for GO
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
     
 jobs:
   build:
