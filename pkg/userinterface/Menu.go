@@ -1,7 +1,7 @@
 package userinterface
 
 import (
-	"Assignment2/pkg/allnodes"
+	"pkg/allnodes"
 	"fmt"
 	"strconv"
 )
