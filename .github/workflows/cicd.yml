@@ -32,5 +32,6 @@ jobs:
         name: Display test Information
         uses: EnricoMi/publish-unit-test-result-action@v1.5   
         with:
+          github_token: ${{github.token}}
           files: report.xml
           
