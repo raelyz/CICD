@@ -1,8 +1,8 @@
 package main
 
 import (
-	"pkg/allnodes"
-	"pkg/userinterface"
+	"./pkg/allnodes"
+	"./pkg/userinterface"
 	"sync"
 )
 
