@@ -5,8 +5,8 @@ on:
     branches: [main]
     
 jobs:
-  builds:
+  build:
     runs-on: ubuntu-16.04
-    steps: 
+    steps:
       - name: Checkout my codes
-        uses: action/checkout@v2
+        uses: actions/checkout@v2   
