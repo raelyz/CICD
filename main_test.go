@@ -2,6 +2,10 @@ package main_test
 
 import "testing"
 
-func Testmain(t *testing.T){
+func TestMain(t *testing.T){
+
+}
+
+func TestSum(t *testing.T){
 
 }
