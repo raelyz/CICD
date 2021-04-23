@@ -20,11 +20,11 @@ jobs:
       - name: Install dependencies
         run: |
           go get github.com/tebeka/go2xunit
-      - if: ${{success}}
+      - if: ${{Success}}
         name: Install Goblin
         run: |
           go get github.com/franela/goblin
-      - if: ${{success}}
+      - if: ${{Success}}
         name: Test Goblin
         run: |
           go test -v
