@@ -1,7 +1,7 @@
 package userinterface
 
 import (
-	"pkg/allnodes"
+	"./allnodes"
 	"bufio"
 	"errors"
 	"fmt"
