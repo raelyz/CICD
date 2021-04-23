@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Assignment2/pkg/allnodes"
-	"Assignment2/pkg/userinterface"
+	"pkg/allnodes"
+	"pkg/userinterface"
 	"sync"
 )
 
