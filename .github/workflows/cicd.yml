@@ -9,4 +9,11 @@ jobs:
     runs-on: ubuntu-16.04
     steps:
       - name: Checkout my codes
-        uses: actions/checkout@v2   
+        uses: actions/checkout@v2
+      - name: Setup Go Environment
+        uses: actions/setup-go@v2
+        with:
+            go-version: '1.15'
+      - name: Check Go Version
+        run: |
+          go version
